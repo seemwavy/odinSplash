@@ -1,0 +1,121 @@
+@import url('https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf');
+@font-face {
+    font-family: Norse;
+    src: url(https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf);
+}
+
+body {
+    background-color: black;
+    padding: 15px;
+}
+.lSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("faris-mohammed-d30sszrW7Vw-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40vw;
+    font-family: Norse, sans-serif;
+}
+.rSide {
+    display: flex;
+    width: 60vw;
+    background-color: aliceblue;
+    flex-flow: column nowrap;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.odin {
+    height: 10vh;
+}
+.logo {
+    background-color: black;
+    height: auto;
+    gap: 1vw;
+    padding: 15px 0;
+   color: white;
+    opacity: 0.7;
+    position: relative;
+
+}
+.container, .odin {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+* {
+    box-sizing: border-box;
+}
+.description
+{
+    font-weight: 500;
+    width: 90%;
+    font-size: 1.2rem;
+    padding: 15px;
+    text-align: left;
+}
+
+.account {
+    background-color: #596D48;
+    border-radius: 3px;
+    color: white;
+    padding: 15px;
+}
+
+form {
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+input {
+    border: #E5E7EB 1px;
+    margin: 5px;
+}
+
+input:focus {
+    border:red 1px;
+    box-shadow: 2px;
+
+}
+
+input:invalid {
+    background-color: ivory;
+    outline: 2px red solid;
+    border-radius: 5px;
+    
+}
+input:valid:not(#password2, #password1) {
+    background-color: rgb(33, 154, 33);
+    outline: 2px black solid;
+    border-radius: 5px;
+}
+
+.submitButton {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    margin-top: 50px;
+}
+
+.formbox {
+   flex-wrap: wrap;
+}
+
+ #confirm {
+    display: block;
+    justify-self: center;
+    margin-left: 120px;
+}
+
+.heading {
+    text-decoration: underline;
+}
